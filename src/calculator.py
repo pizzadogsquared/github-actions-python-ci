@@ -1,8 +1,10 @@
 def add(a, b):
-    pass
+    return a + b
 
 def subtract(a, b):
-    pass
+    return a - b
 
 def divide (a,b):
-    pass
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
